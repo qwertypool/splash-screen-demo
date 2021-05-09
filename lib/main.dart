@@ -28,11 +28,11 @@ void initState() {
 	super.initState();
 	Timer(Duration(seconds: 5),
 		()=>Navigator.pushReplacement(context,
-										MaterialPageRoute(builder:
-														(context) =>
-														SecondScreen()
-														)
-									)
+		MaterialPageRoute(builder:
+		(context) =>
+		SecondScreen()
+		)
+		)
 		);
 }
 @override
